@@ -1,50 +1,50 @@
-.paragraph {
+.clay-paragraph {
   margin: 0 auto 1.5rem;
   width: 80%;
 }
 
-.paragraph h2 {
+.clay-paragraph h2 {
   font-size: 1.2rem;
   font-weight: bold;
   line-height: 1.6rem;
   margin: 3rem 0 2rem;
 }
-.paragraph p {
+.clay-paragraph p {
   margin: 0;
 }
-.paragraph a {
+.clay-paragraph a {
   color: #1782a9;
   padding: 0;
   text-decoration: none;
 }
-.paragraph ul {
+.clay-paragraph ul {
   clear: both;
   padding: 0 0 0 1rem;
 }
-.paragraph ul li {
+.clay-paragraph ul li {
   line-height: 2.3rem;
   list-style: none;
   margin: 0 0 2rem;
 }
-.paragraph ul li:before {
+.clay-paragraph ul li:before {
   color: #999;
   content: '•';
   left: 0;
   position: absolute;
 }
-.paragraph ol {
+.clay-paragraph ol {
   clear: both;
   counter-reset: list;
   padding: 0 0 0 2rem;
 }
-.paragraph ol li {
+.clay-paragraph ol li {
   display: block;
   line-height: 2.3rem;
   list-style: none;
   margin: 0 0 2rem;
   padding: 0;
 }
-.paragraph ol li:before {
+.clay-paragraph ol li:before {
   color: #999;
   content: counter(list);
   counter-increment: list;
@@ -55,7 +55,7 @@
   position: absolute;
 }
 
-.paragraph blockquote:before {
+.clay-paragraph blockquote:before {
   border-top: 5px solid #e2e2e0;
   content: '';
   display: inline;
@@ -63,8 +63,8 @@
   position: absolute;
   width: 4.5rem;
 }
-.paragraph blockquote,
-.paragraph blockquote p {
+.clay-paragraph blockquote,
+.clay-paragraph blockquote p {
   color: #5a5a5a;
   font-family: Georgia, serif;
   font-size: 1.5rem;
@@ -74,10 +74,10 @@
   padding: 1.5rem 0;
   position: relative;
 }
-.paragraph blockquote p {
+.clay-paragraph blockquote p {
   margin-bottom: 0;
   padding-top: 0;
 }
-.paragraph blockquote p:last-of-type {
+.clay-paragraph blockquote p:last-of-type {
   padding: 0;
 }

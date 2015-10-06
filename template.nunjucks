@@ -1,1 +1,1 @@
-<p class="paragraph" data-editable="text" data-uri="{{ _ref or _self }}">{{ text | safe }}</p>
+<p class="clay-paragraph" data-editable="text" data-uri="{{ _ref or _self }}">{{ text | safe }}</p>
