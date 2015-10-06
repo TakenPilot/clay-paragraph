@@ -1,0 +1,3 @@
+components:
+  clay-paragraph:
+    text: '' # default to empty text when adding a new paragraph
