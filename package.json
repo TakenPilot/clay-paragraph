@@ -1,6 +1,6 @@
 {
   "name": "@nymdev/clay-paragraph",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple paragraph component",
   "style": "*.css",
   "template": "template.nunjucks",
