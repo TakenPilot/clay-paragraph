@@ -1,0 +1,18 @@
+---
+text:
+  _placeholder:
+    height: 50px
+    text: New Paragraph
+  _display: inline
+  _has:
+    - textarea
+    - required
+    -
+      fn: wysiwyg
+      enableKeyboardExtras: true
+      styled: false
+      buttons:
+        - bold
+        - italic
+        - strikethrough
+        - anchor

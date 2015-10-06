@@ -1,0 +1,21 @@
+{
+  "name": "@nymdev/clay-paragraph",
+  "version": "0.0.1",
+  "description": "A simple paragraph component",
+  "style": "*.css",
+  "template": "template.nunjucks",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nymag/clay-paragraph.git"
+  },
+  "keywords": [
+    "clay"
+  ],
+  "author": "New York Media",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nymag/clay-paragraph/issues"
+  },
+  "homepage": "https://github.com/nymag/clay-paragraph#readme"
+}
